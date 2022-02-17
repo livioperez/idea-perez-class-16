@@ -1,0 +1,13 @@
+.carru{
+    height: 25em;
+}
+    .carrColor{
+        color:map-get($estilos , color ); 
+    background-color: gray;
+    opacity: 0.8;
+    display: inline block;
+}
+    .carruColor1{
+        display: inline block;
+    }
+    

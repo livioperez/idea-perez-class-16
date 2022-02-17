@@ -1,0 +1,48 @@
+
+
+
+@import "encabezado";
+@import "carrusel";
+@import "footer";
+@import "varios";
+@import "transporte";
+@import "fotos";
+@import "email";
+@import "faq";
+@import "reparaciones";
+@import "animaciones";
+@import "map";
+@import "media";
+
+
+
+
+
+.logo{
+    position: absolute;    
+    top: 20px; 
+    left: 15px;
+    width: 3rem;
+    height:3rem;
+    display: inline;
+    transition: top 2s;   
+    &:hover{
+        top:200px ;   
+}
+}
+.whatsapp { 
+    position: absolute;    
+    top: 20px; 
+    right: 20px;
+    width: 60px;
+    height:60px;
+    display: inline;
+    border: solid 5px black;  
+    border-radius:90%;
+    position: fixed;
+    z-index: 10;
+    }
+    .clienHeight{
+        height: 90%;
+        width: 100%;
+    }

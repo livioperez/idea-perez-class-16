@@ -1,0 +1,28 @@
+@import "map";
+
+
+.encabezado{
+    background-image: map-get($estilos , colorPagina );
+}
+    h1{
+        height: 3em;
+        font-size:  map-get($estilos , tamaño-h1 );     
+        font-family: 'Spline Sans', sans-serif;      
+        color: map-get($estilos , color );
+        padding-top: 0.5em;
+        text-shadow: 10px 10px 5px gray;
+       
+    }
+    h4{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         color: map-get($estilos , color );         
+        font-size:  map-get($estilos , tamaño-h4 );    
+        padding-top: 50px; 
+        font-family: 'Ubuntu Mono', monospace;    
+        animation-duration: 4s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+    }
+
