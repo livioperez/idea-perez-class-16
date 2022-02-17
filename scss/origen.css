@@ -306,7 +306,7 @@ h4 {
 
 @media (max-width: 768px) {
   .centrar {
-    margin-left: 38px;
+    margin-left: 45px;
   }
   h1 {
     font-size: 6rem;
@@ -314,8 +314,7 @@ h4 {
 }
 
 @media (max-width: 375px) {
-  /*esto no se porque no me funicona*/
-  .logo {
+  .logoq {
     display: none;
   }
 }
