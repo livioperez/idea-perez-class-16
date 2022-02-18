@@ -186,7 +186,7 @@ h4 {
   h1 {
     font-size: 6rem; } }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .logoq {
     display: none; } }
 
